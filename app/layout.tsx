@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: 'Casa en Verona Residencial, Tijuana | $3,650,000 MXN — Bienes Raíces Hub',
   description:
     'Casa de 110 m² de construcción, 3 recámaras y 2.5 baños en el fraccionamiento privado Verona Residencial, Tijuana. Acceso controlado, seguridad 24 horas y áreas verdes. Agenda tu cita con el asesor.',
+  // Esta landing es una versión de campaña (ads, WhatsApp) de la misma
+  // propiedad que ya vive en
+  // bienesraiceshub.com/propiedad/privada-verona-napoles. El canonical
+  // marca al Hub como la versión preferida para Google. Ver
+  // claude/estrategia-seo-google-oct-2026.md, sección 1.
+  alternates: {
+    canonical: 'https://www.bienesraiceshub.com/propiedad/privada-verona-napoles',
+  },
   openGraph: {
     title: 'Casa en Verona Residencial, Tijuana | $3,650,000 MXN',
     description:
