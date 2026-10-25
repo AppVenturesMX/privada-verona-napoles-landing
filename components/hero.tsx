@@ -130,7 +130,7 @@ export function Hero() {
               alt="Fachada de la casa en Privada Verona Nápoles, Tijuana"
               className="aspect-[4/3] w-full object-cover"
             />
-            <PhotoWatermark />
+            <PhotoWatermark variant="full" />
           </div>
         </motion.div>
       </div>
